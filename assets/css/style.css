@@ -114,7 +114,7 @@ header{
   background: #2ecc71;
   color: #fff;
   padding: 11px 20px;
-  border-radius: 1px;
+  border-radius: 2px;
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 63px;
@@ -160,39 +160,48 @@ footer{
   color: black;
 }
 
-.descrition{
-  display: inline-block;
+
+.text-w{
+  color: black;
 }
 
 .modal-container{
-  position: absolute;
-  top:2120px;
-  left:0px;
+  box-sizing: border-box;
+  position: fixed;
+  top:0;
+  left:0;
   background-color: rgba(113,219,152,.95);
   display:none;
-  margin-top: 60px;
   width:100%;
   height: 100%;
 }
 
 .work-img{
   cursor: pointer;
+  border-radius: 5%;
+  box-shadow: 4px 4px 0 0 #C0C4C2;
+
 }
 
 .modal-img{
-  width:100%;
-  height: 100%;
-  padding: 2% 28%;
+  position: absolute;
+  top:2.5%;
+  left:22%;
+  border: 10px solid white;
+  width: 55%;
+  height: 95%;
+  border-radius: 2%;
   opacity: 1;
 }
+
 
 .close{
 display: inline-block;
 padding: 0;
-margin:0;
+margin: 0;
 position: absolute;
-top:2%;
-right:29%;
+top:1%;
+right:24%;
 cursor: pointer;
 font-size: 250%;
 color: #71DB98;
@@ -200,15 +209,15 @@ transform: scale(1);
 }
 
 .close:hover{
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 .next{
 padding: 0;
 margin: 0;
 position: absolute;
-top:43%;
-right: 28%;
+top:45%;
+right: 24%;
 cursor: pointer;
 font-size: 200%;
 color: #71DB98;
@@ -216,15 +225,15 @@ transform: scale(1);
 }
 
 .next:hover{
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 .previous{
 padding: 0;
 margin: 0;
 position: absolute;
-top:43%;
-right: 70%;
+top: 45%;
+left: 23%;
 cursor: pointer;
 font-size: 200%;
 color: #71DB98;
@@ -232,5 +241,7 @@ transform: scale(1);
 }
 
 .previous:hover{
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
+
+.over
